@@ -20,3 +20,8 @@
 .logo {
     margin: 0 10%;
 }
+@media (max-width: 600px) {
+    .main{
+        display: none;
+    }
+}
