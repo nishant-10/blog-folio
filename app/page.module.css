@@ -1,3 +1,7 @@
+.content_container {
+  width: 80vw;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -13,6 +17,12 @@
   .footer a:hover {
     text-decoration: underline;
     text-underline-offset: 4px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .content_container {
+    width: 95vw;
   }
 }
 

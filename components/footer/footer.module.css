@@ -1,5 +1,5 @@
 .main{
-    background-color: red;
+    background-color: #222222;
     height: 50px;
     display: flex;
     gap:2%;
@@ -9,4 +9,5 @@
 }
 .logo{
     margin: 0 10%;
+    text-align: left;
 }
